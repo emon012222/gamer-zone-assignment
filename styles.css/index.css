@@ -81,7 +81,7 @@
 }
 
 .goat-content {
-    border: 2px solid red;
+   
     position: absolute;
     width: 901px;
     height: 700px;
@@ -219,7 +219,7 @@
 }
 
 .online-game-tittle {
-    border: 2px solid red;
+   
     margin-left: 150px;
     margin-top: 200px;
 
@@ -235,7 +235,7 @@
 
 .online-game-description {
     margin-left: 150px;
-    border: 2px solid green;
+    
     color: #534C64;
     font-family: Work Sans;
     font-size: 18px;

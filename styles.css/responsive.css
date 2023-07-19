@@ -1,4 +1,5 @@
 @media screen and (max-width:576px) {
+    /* nav responsive */
     .nav-container,
     .nav-item-container{
         flex-direction: column;
@@ -10,8 +11,65 @@
     padding: 0;
     margin-top: 20px;
    }
-   
+   /* goat responsive */
+   .goat-container{
+    flex-direction: column;
+   }
+   .goat-content{
+    margin-left: 0;
     
+   }
+   .goat-content > ul{
+    padding-left: 0;
+   }
+   /* video section responsive */
+   .video-container{
+    flex-direction: column;
+    margin-left: -20px;
+    
+   }
+   /* online game section */
+   .online-game-container{
+    flex-direction: column;
+   }
+   .online-game-tittle{
+    margin-left: 0;
+    margin-top: 0;
+   }
+   .online-game-description{
+    margin-left: 0;
+   }
+   .online-game-img{
+   }
+   /* game type section */
+   .game-type-container{
+    flex-direction: column;
+    margin: 0;
+    margin-top: 200px;
+   }
+   /* footer section */
+    .footer{
+        margin-top: 200px;
+        height: 1200px;
+    }
+    .footer-content{
+        flex-direction: column;
+        margin-left: 0;
+        gap: 25px;
+    }
+    .footer-logo{
+        flex-direction: column;
+        margin-left: 0;
+        gap: 20px;
+    }
+    .footer-terms{
+        flex-direction: column;
+        margin-left: 0;
+        gap: 10px;
+    }
+    .footer-foot{
+        margin-left: 40px;
+    }
 }
 
 
