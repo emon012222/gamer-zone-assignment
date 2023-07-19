@@ -22,6 +22,11 @@
    .goat-content > ul{
     padding-left: 0;
    }
+   .goat-image{
+    margin-top: 200px;
+    width: 100%;
+    
+   }
    /* video section responsive */
    .video-container{
     flex-direction: column;
@@ -39,7 +44,12 @@
    .online-game-description{
     margin-left: 0;
    }
-   .online-game-img{
+   .online-game-img1{
+   width: 100%;
+   }
+   .online-game-img2{
+    width: 100%;
+    margin-top: 300px;
    }
    /* game type section */
    .game-type-container{
