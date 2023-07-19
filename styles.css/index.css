@@ -187,12 +187,30 @@
 .hoverdiv:hover{
     opacity: 0.3
 }
+.imagediv:hover {
+    opacity: 0.7; 
+}
 
+
+.video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+    opacity: 0; 
+}
+
+.hoverdiv:hover .video-icon {
+  opacity: 1; 
+}
   
   
 
 .imagediv {
     padding: 0 20px;
+    position: relative;
 }
 
 .imagediv>p {
