@@ -189,14 +189,21 @@ font-weight: 600;
 /* game type section ends */
 /* footer section */
 .footer{
-    height: 400px;
+    height: 500px;
     background-color: #0B0223;
-    display: flex;
+   
    
 }
 .logo{
-    
+    display: flex;
+    justify-content: center;
 
+}
+.logo img{
+    width: 80px;
+    height: 36px;
+    margin-top: 55px;
+    margin-right: 20px;
 }
 .footer-tittle{
     color: #FFF;
@@ -205,18 +212,36 @@ font-size: 45px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+
 }
 .footer-content{
     display: flex;
     color: #fff;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left: 250px;
+    margin-right: 250px;
+    
 }
 .footer-logo{
     display: flex;
+    justify-content: space-evenly;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 60px;
 }
 .footer-terms{
     display: flex;
-    color: #fff; 
+    color: #fff;
+    list-style: none; 
+    justify-content: space-evenly;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 60px;
 }
 .footer-foot{
-    color: #fff; 
+    color: #fff;
+    margin-left: 700px;
+    margin-top: 60px;
+    
 }
